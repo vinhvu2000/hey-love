@@ -1,11 +1,14 @@
 {
   "name": "hey-love",
+  "homepage": "https://vinhvu2000.github.io/hey-love/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,6 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "gh-pages": "^5.0.0",
     "vite": "^4.3.2"
   }
 }
