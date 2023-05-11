@@ -10,35 +10,33 @@
         <div class="header-search-title">Tìm kiếm</div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-status">
-      <svg width="45%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect width="24" height="24" fill="white"></rect> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12Z" fill="#017BEF"></path> </g></svg>
-    </div>
-    <div class="card-avatar">
-      <img src="https://scontent.fhan19-1.fna.fbcdn.net/v/t39.30808-6/330955926_558339152899506_331230476003010526_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=ERMJBJJqAM0AX-arixf&_nc_ht=scontent.fhan19-1.fna&oh=00_AfD-gOcIfaJR4QxWeWpXCucNIFHj0c8tQUxTh5wsrJhsyA&oe=6460F699">
-    </div>
-    <div class="card-main">
-      <div class="card-header"></div>
-      <div class="card-content"></div>
-    </div>
-    <div class="card-icon"></div>
-  </div>
+  <SmallBoxChat></SmallBoxChat>
+  <SmallBoxChat></SmallBoxChat>
+  <SmallBoxChat></SmallBoxChat>
+  <SmallBoxChat></SmallBoxChat>
+  <SmallBoxChat></SmallBoxChat>
+  <SmallBoxChat></SmallBoxChat>
+  <SmallBoxChat></SmallBoxChat>
 </template>
 
 <script>
+import SmallBoxChat from "./SmallBoxChat.vue";
+
 export default {
-  name: "Dashboard"
+  name: "Dashboard",
+  components: {SmallBoxChat}
+
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .header{
   height: 145px;
   border-bottom: 1px solid #F0F0F0;
   display: block;
   padding: 0 4.83vw 0 4.83vw;
   .header-action{
-    margin-top: 5.58vh;
+    margin-top: 2.58vh;
     margin-bottom: 1.12vh;
     color: #6CACF3;
     display: flex;
@@ -64,21 +62,6 @@ export default {
       padding: 10px 5px 10px 10px;
       width: 20px;
     }
-  }
-}
-.card{
-  display: flex;
-  align-items: center;
-  .card-status {
-    display: flex;
-    width: 30px;
-    justify-content: center;
-  }
-  .card-avatar img{
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
   }
 }
 </style>
