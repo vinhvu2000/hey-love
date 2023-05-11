@@ -36,6 +36,7 @@ export default {
     .small-box-chat-status {
         display: flex;
         max-width: 25px;
+        min-width: 25px;
         justify-content: center;
     }
     .small-box-chat-avatar img{
