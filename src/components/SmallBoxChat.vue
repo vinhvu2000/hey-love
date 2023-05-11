@@ -45,7 +45,8 @@ export default {
         border-radius: 50%;
     }
     .small-box-chat-main{
-        margin: 1.11vh 2.41vw;
+        padding: 1.11vh 2.41vw;
+        border-top: 1px solid #F0F0F0;
         .small-box-chat-header{
             display: flex;
             justify-content: space-between;

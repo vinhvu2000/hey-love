@@ -16,7 +16,6 @@
   <SmallBoxChat></SmallBoxChat>
   <SmallBoxChat></SmallBoxChat>
   <SmallBoxChat></SmallBoxChat>
-  <SmallBoxChat></SmallBoxChat>
 </template>
 
 <script>
@@ -32,7 +31,7 @@ export default {
 <style lang="scss" scoped>
 .header{
   height: 145px;
-  border-bottom: 1px solid #F0F0F0;
+
   display: block;
   padding: 0 4.83vw 0 4.83vw;
   .header-action{
