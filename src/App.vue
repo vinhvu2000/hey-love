@@ -2,17 +2,24 @@
 <!--  <Header></Header>-->
 <!--  <Body></Body>-->
 <!--  <Footer></Footer>-->
-  <Dashboard></Dashboard>
+<!--  <Dashboard></Dashboard>-->
+  <BoxChat></BoxChat>
 </template>
 
-<script setup>
+<script>
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
 import Footer from './components/Footer.vue'
 import Dashboard from "./components/Dashboard.vue";
+import BoxChat from "./components/BoxChat/BoxChatIndex.vue";
+
+export default {
+  name: "App",
+  components: {Header,Body,Footer,Dashboard,BoxChat}
+}
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .logo {
   height: 6em;
   padding: 1.5em;
