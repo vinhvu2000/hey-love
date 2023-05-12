@@ -1,35 +1,51 @@
 <template>
-<!--  <Header></Header>-->
-<!--  <Body></Body>-->
-<!--  <Footer></Footer>-->
-<!--  <Dashboard></Dashboard>-->
-  <BoxChat></BoxChat>
+    <router-view v-slot="{ Component, route }">
+        <transition :name="transitionName" mode="out-in">
+            <div :key="route.name">
+                <component :is="Component"></component>
+            </div>
+        </transition>
+    </router-view>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Body from './components/Body.vue'
-import Footer from './components/Footer.vue'
-import Dashboard from "./components/Dashboard.vue";
-import BoxChat from "./components/BoxChat/BoxChatIndex.vue";
+import Body from "./components/Body.vue";
 
 export default {
-  name: "App",
-  components: {Header,Body,Footer,Dashboard,BoxChat}
+    name: "App",
+    components: {Body},
+    data() {
+        return {
+            transitionName: undefined,
+        }
+    },
+    watch: {
+        $route(to, from) {
+            this.transitionName = to.name === 'messages' ? 'slide' : 'slide-back'
+        },
+    },
 }
 </script>
 
-<style lang="scss" scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style lang="scss">
+.slide-enter-active, .slide-leave-active,
+.slide-back-enter-active, .slide-back-leave-active {
+    transition: all 0.3s ease;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.slide-leave-to, .slide-back-leave-to {
+    opacity: 0;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.slide-enter-from {
+    transform: translateX(400px);
+    opacity: 0;
 }
+
+.slide-back-enter-from {
+    transform: translateX(-400px);
+    opacity: 0;
+}
+
+
 </style>

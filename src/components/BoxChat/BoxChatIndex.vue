@@ -161,7 +161,7 @@ export default {
     padding: 20px;
     word-break:break-all;
     overflow-y: auto;
-    height: calc(70vh);
+    height: 55vh;
     .box-chat-message-out{
         display: flex;
         flex-direction: column;

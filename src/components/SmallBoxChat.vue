@@ -25,7 +25,8 @@
 
 <script>
 export default {
-    name: "SmallBoxChat"
+    name: "SmallBoxChat",
+    props: ['boxChat']
 }
 </script>
 
