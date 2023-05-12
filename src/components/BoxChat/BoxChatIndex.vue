@@ -3,7 +3,7 @@
         <div class="box-chat-header-action">
             <div class="box-chat-header-action-left-button">
                 <div class="box-chat-header-action-left-button-back">
-                    <svg width="20px" viewBox="-4.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" transform="rotate(0)matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>arrow_right [#336]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-305.000000, -6679.000000)" fill="#0177F7"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M249.365851,6538.70769 L249.365851,6538.70769 C249.770764,6539.09744 250.426289,6539.09744 250.830166,6538.70769 L259.393407,6530.44413 C260.202198,6529.66364 260.202198,6528.39747 259.393407,6527.61699 L250.768031,6519.29246 C250.367261,6518.90671 249.720021,6518.90172 249.314072,6519.28247 L249.314072,6519.28247 C248.899839,6519.67121 248.894661,6520.31179 249.302681,6520.70653 L257.196934,6528.32352 C257.601847,6528.71426 257.601847,6529.34685 257.196934,6529.73759 L249.365851,6537.29462 C248.960938,6537.68437 248.960938,6538.31795 249.365851,6538.70769" id="arrow_right-[#336]"> </path> </g> </g> </g> </g></svg>
+                    <svg width="20px" viewBox="-4.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>arrow_left [#335]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-345.000000, -6679.000000)" fill="#0177F7"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M299.633777,6519.29231 L299.633777,6519.29231 C299.228878,6518.90256 298.573377,6518.90256 298.169513,6519.29231 L289.606572,6527.55587 C288.797809,6528.33636 288.797809,6529.60253 289.606572,6530.38301 L298.231646,6538.70754 C298.632403,6539.09329 299.27962,6539.09828 299.685554,6538.71753 L299.685554,6538.71753 C300.100809,6538.32879 300.104951,6537.68821 299.696945,6537.29347 L291.802968,6529.67648 C291.398069,6529.28574 291.398069,6528.65315 291.802968,6528.26241 L299.633777,6520.70538 C300.038676,6520.31563 300.038676,6519.68305 299.633777,6519.29231" id="arrow_left-[#335]"> </path> </g> </g> </g> </g></svg>
                 </div>
                 <div class="box-chat-header-action-left-button-number">
                     <svg fill="#0177F7" width="25px" viewBox="-1 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M16.417 9.6A7.917 7.917 0 1 1 8.5 1.683 7.917 7.917 0 0 1 16.417 9.6zm-5.313 1.297a2.087 2.087 0 0 0-.186-.907 1.89 1.89 0 0 0-.504-.653 2.124 2.124 0 0 0-.755-.393 3.235 3.235 0 0 0-.926-.13 4.29 4.29 0 0 0-.329.014 2.02 2.02 0 0 0-.329.05l.056-1.037h2.64V6.508H6.75l-.158 3.75a4.635 4.635 0 0 1 .801-.208 4.72 4.72 0 0 1 .802-.079 2.539 2.539 0 0 1 .481.047 1.291 1.291 0 0 1 .43.162.929.929 0 0 1 .31.31.902.902 0 0 1 .121.482.87.87 0 0 1-.291.713 1.117 1.117 0 0 1-1.362.018 1.1 1.1 0 0 1-.384-.565l-1.417.436a2.094 2.094 0 0 0 .347.699 2.221 2.221 0 0 0 .565.523 2.708 2.708 0 0 0 .732.33 3.141 3.141 0 0 0 1.783-.029 2.468 2.468 0 0 0 .81-.43 2.082 2.082 0 0 0 .57-.727 2.365 2.365 0 0 0 .213-1.043z"></path></g></svg>
@@ -21,15 +21,95 @@
             </div>
         </div>
     </div>
+    <div class="box-chat-body">
+        <div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div>
+        <div class="box-chat-message-in">
+            <div class="box-chat-message-in-content">Trở lạ3475888883475347537437458734734583745i thời tiền sử à</div>
+            <div class="box-chat-message-in-content">Trở lại thời tiền sử à</div>
+            <div class="box-chat-message-in-content">Trở lại thời tiền sử à</div>
+        </div>
+        <div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div>
+        <div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div>
+        <div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div><div class="box-chat-message-out">
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị lag rồi</div>
+            <div class="box-chat-message-out-content">Fb anh bị324444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 lag rồi</div>
+        </div>
+    </div>
 </template>
 
 <script>
 import SmallBoxChat from "../SmallBoxChat.vue";
 import Header from "../Header.vue";
+import Body from "../Body.vue";
 
 export default {
   name: "BoxChatIndex",
-  components: {SmallBoxChat,Header}
+  components: {Body, SmallBoxChat,Header}
 
 }
 </script>
@@ -74,6 +154,39 @@ export default {
         }
         .box-chat-header-action-right-button{
             width: 35px;
+        }
+    }
+}
+.box-chat-body{
+    padding: 20px;
+    word-break:break-all;
+    overflow-y: auto;
+    height: calc(70vh);
+    .box-chat-message-out{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-bottom: 5px;
+        .box-chat-message-out-content{
+            max-width: 60vw;
+            background-color: #2C9DFD;
+            padding: 10px;
+            border-radius: 15px;
+            color: white;
+            margin-bottom: 1px;
+        }
+    }
+    .box-chat-message-in{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        .box-chat-message-in-content{
+            max-width: 60vw;
+            background-color: #E9E9EB;
+            padding: 10px;
+            border-radius: 15px;
+            margin-bottom: 1px;
         }
     }
 }
